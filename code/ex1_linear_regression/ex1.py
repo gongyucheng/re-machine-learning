@@ -40,7 +40,7 @@ def loadData(path):
     plt.show()
     return trainingData
 
-trainingData = loadData(os.getcwd() + '/../data/ex1data1.txt')
+trainingData = loadData(os.getcwd() + '/../../data/ex1data1.txt')
 
 # 在数据集前插入一列Ones作为常数系数，也就是y=k*x+b*1这种形式
 trainingData.insert(0, 'Ones', 1)
